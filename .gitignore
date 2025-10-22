@@ -1,0 +1,102 @@
+# ========================================================
+# 🚀 Full-Stack Repo: Express (JavaScript) + React Native (TypeScript)
+# ========================================================
+
+# ------------------------------
+# 🧩 Node / General
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+*.log
+
+# ------------------------------
+# 🔐 Environment Files
+# ------------------------------
+.env
+.env.*
+!.env.example  # keep example env template if present
+
+# ------------------------------
+# 🧱 Build Artifacts & Cache
+# ------------------------------
+build/
+dist/
+coverage/
+.cache/
+.temp/
+tmp/
+
+# ------------------------------
+# ⚙️ Backend (Express - JS)
+# ------------------------------
+server/node_modules/
+server/build/
+server/dist/
+server/uploads/
+server/temp/
+server/logs/
+server/coverage/
+server/.env
+server/.env.*
+server/**/*.log
+
+# ------------------------------
+# 📱 Frontend (React Native - possibly TypeScript)
+# ------------------------------
+client/node_modules/
+client/.expo/
+client/.expo-shared/
+client/build/
+client/dist/
+client/.env
+client/.env.*
+client/coverage/
+
+# Android build artifacts
+client/android/.gradle/
+client/android/app/build/
+client/android/build/
+client/android/local.properties
+client/android/*.keystore
+client/android/app/*.keystore
+
+# iOS build artifacts
+client/ios/build/
+client/ios/Pods/
+client/ios/Podfile.lock
+client/ios/DerivedData/
+client/ios/*.xcworkspace
+client/ios/*.xcodeproj/project.xcworkspace/
+client/ios/*.xcuserstate
+client/ios/*.xcuserdata/
+
+# Metro / Bundler cache
+client/.metro-cache/
+client/.bundle/
+
+# React Native TypeScript build files
+client/tsconfig.tsbuildinfo
+
+# ------------------------------
+# 🧪 IDE / Editor Files
+# ------------------------------
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ------------------------------
+# 🧠 OS / Misc Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
