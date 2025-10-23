@@ -28,6 +28,11 @@ app.use('/api/auth', authRoutes);
 app.use('/api/documents', documentRoutes);
 app.use('/api/chat', chatRoutes);
 
+app.get('/',(req,res)=>{
+  // return res.status(200).json({"text":"Hellow World!"})
+  return res.send("Hello World");
+})
+
 // Global error handler
 app.use(errorHandler);
 
